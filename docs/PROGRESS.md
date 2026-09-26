@@ -33,26 +33,26 @@
 | 025 | 241–250 | ✅ | parts/part-025-open-close-read-write.md |
 | 026 | 251–260 | ✅ | parts/part-026-master-detail-processing.md |
 | 027 | 261–270 | ✅ | parts/part-027-sort-merge.md |
-| 028 | 271–280 | ⬜ | |
-| 029 | 281–290 | ⬜ | |
-| 030 | 291–300 | ⬜ | |
-| 031 | 301–310 | ⬜ | |
+| 028 | 271–280 | ✅ | parts/part-028-indexed-files.md |
+| 029 | 281–290 | ✅ | parts/part-029-relative-files.md |
+| 030 | 291–300 | ✅ | parts/part-030-file-status-codes.md |
+| 031 | 301–310 | ✅ | parts/part-031-call-statement.md |
 | 032 | 311–320 | ⬜ | |
-| 033 | 321–330 | ⬜ | |
-| 034 | 331–340 | ⬜ | |
-| 035 | 341–350 | ⬜ | 🎯 Milestone: Inventory System |
-| 036 | 351–360 | ⬜ | |
-| 037 | 361–370 | ⬜ | |
-| 038 | 371–380 | ⬜ | |
-| 039 | 381–390 | ⬜ | |
-| 040 | 391–400 | ⬜ | |
-| 041 | 401–410 | ⬜ | |
-| 042 | 411–420 | ⬜ | |
-| 043 | 421–430 | ⬜ | |
-| 044 | 431–440 | ⬜ | |
-| 045 | 441–450 | ⬜ | |
-| 046 | 451–460 | ⬜ | |
-| 047 | 461–470 | ⬜ | |
+| 033 | 321–330 | ✅ | parts/part-033-copy-copybooks.md |
+| 034 | 331–340 | ✅ | parts/part-034-nested-programs.md |
+| 035 | 341–350 | ✅ | parts/part-035-phase2-project.md 🎯 Milestone: Inventory System |
+| 036 | 351–360 | ✅ | parts/part-036-intrinsic-functions-numeric-date.md |
+| 037 | 361–370 | ✅ | parts/part-037-intrinsic-functions-string-stats.md |
+| 038 | 371–380 | ✅ | parts/part-038-report-writer-basics.md |
+| 039 | 381–390 | ✅ | parts/part-039-report-writer-control-breaks.md |
+| 040 | 391–400 | ✅ | parts/part-040-screen-section.md |
+| 041 | 401–410 | ✅ | parts/part-041-advanced-evaluate.md |
+| 042 | 411–420 | ✅ | parts/part-042-class-sign-condition.md |
+| 043 | 421–430 | ✅ | parts/part-043-dynamic-call.md |
+| 044 | 431–440 | ✅ | parts/part-044-based-storage-pointer.md |
+| 045 | 441–450 | ✅ | parts/part-045-json-generate-parse.md |
+| 046 | 451–460 | ✅ | parts/part-046-xml-generate-parse.md |
+| 047 | 461–470 | ✅ | parts/part-047-advanced-date-time.md |
 | 048 | 471–480 | ⬜ | |
 | 049 | 481–490 | ⬜ | |
 | 050 | 491–500 | ⬜ | 🎯 Milestone: Accounts Receivable |
