@@ -16,7 +16,7 @@
 | 008 | 71–80 | ✅ | parts/part-008-move-statement.md |
 | 009 | 81–90 | ✅ | parts/part-009-arithmetic.md |
 | 010 | 91–100 | ✅ | parts/part-010-if-else-condition-names.md |
-| 011 | 101–110 | ⬜ | |
+| 011 | 101–110 | ✅ | parts/part-011-evaluate.md |
 | 012 | 111–120 | ✅ | parts/part-012-perform-until.md |
 | 013 | 121–130 | ✅ | parts/part-013-perform-varying.md |
 | 014 | 131–140 | ✅ | parts/part-014-paragraphs-sections.md |
