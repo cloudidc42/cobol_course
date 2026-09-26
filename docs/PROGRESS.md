@@ -27,7 +27,7 @@
 | 019 | 181–190 | ✅ | parts/part-019-string-statement.md |
 | 020 | 191–200 | ✅ | parts/part-020-unstring-statement.md |
 | 021 | 201–210 | ✅ | parts/part-021-inspect-statement.md |
-| 022 | 211–220 | ⬜ | |
+| 022 | 211–220 | ✅ | parts/part-022-redefines.md |
 | 023 | 221–230 | ✅ | parts/part-023-sequential-files.md |
 | 024 | 231–240 | ✅ | parts/part-024-file-section-fd.md |
 | 025 | 241–250 | ⬜ | |
