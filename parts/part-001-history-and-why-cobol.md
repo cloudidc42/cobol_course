@@ -345,11 +345,13 @@ COBOL เป็นภาษาโปรแกรมแบบ **Procedural** (เ
 ทุกโปรแกรม COBOL จะถูกแบ่งออกเป็น 4 ส่วนหลักเสมอ (จะสอนละเอียดใน Part 003):
 
 ```cobol
-       IDENTIFICATION DIVISION.     *> บอกว่าโปรแกรมนี้ชื่ออะไร ใครเขียน
-       ENVIRONMENT DIVISION.        *> บอกว่าโปรแกรมทำงานบนสภาพแวดล้อมอะไร เชื่อมไฟล์ไหน
-       DATA DIVISION.               *> ประกาศตัวแปรและโครงสร้างข้อมูลทั้งหมด
-       PROCEDURE DIVISION.          *> ตรรกะการทำงานจริงของโปรแกรม (คำสั่งต่าง ๆ)
+       IDENTIFICATION DIVISION.     *> Program name and author
+       ENVIRONMENT DIVISION.        *> Runtime environment, file connections
+       DATA DIVISION.               *> All variables and data structures
+       PROCEDURE DIVISION.          *> The program's actual logic (statements)
 ```
+
+(หมายเหตุ: โค้ด COBOL ในหลักสูตรนี้ใช้คอมเมนต์เป็นภาษาอังกฤษเสมอ เหตุผลด้านเทคนิคจะอธิบายละเอียดใน Part 002)
 
 การแบ่งส่วนที่ชัดเจนนี้ทำให้โปรแกรม COBOL แม้จะมีขนาดหลายพันหรือหลายหมื่นบรรทัด ก็ยังสามารถอ่านและบำรุงรักษาได้
 เพราะเรารู้เสมอว่า "ถ้าจะหาตัวแปร ให้ไปดูที่ DATA DIVISION" และ "ถ้าจะหาตรรกะการทำงาน ให้ไปดูที่ PROCEDURE DIVISION"
