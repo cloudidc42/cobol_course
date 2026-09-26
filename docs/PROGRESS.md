@@ -37,7 +37,7 @@
 | 029 | 281–290 | ✅ | parts/part-029-relative-files.md |
 | 030 | 291–300 | ✅ | parts/part-030-file-status-codes.md |
 | 031 | 301–310 | ✅ | parts/part-031-call-statement.md |
-| 032 | 311–320 | ⬜ | |
+| 032 | 311–320 | ✅ | parts/part-032-parameter-passing.md |
 | 033 | 321–330 | ✅ | parts/part-033-copy-copybooks.md |
 | 034 | 331–340 | ✅ | parts/part-034-nested-programs.md |
 | 035 | 341–350 | ✅ | parts/part-035-phase2-project.md 🎯 Milestone: Inventory System |
