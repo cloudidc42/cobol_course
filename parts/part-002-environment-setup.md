@@ -416,6 +416,76 @@ cobc -x -free -o hello hello_free.cob
 
 ---
 
+## ภาคผนวก: Build GnuCOBOL เองเพื่อรองรับ Indexed File (ISAM) — สำคัญสำหรับ Part 028 เป็นต้นไป
+
+เนื้อหานี้ไม่ใช่ขั้นตอนบังคับของ Part 002 แต่เป็นข้อมูลสำคัญที่ควรอ่านไว้ล่วงหน้า เพราะจะกระทบ
+การเรียน **Part 028 (Indexed Files)** และ **Part 035 (โปรเจกต์เฟส 2)** เป็นต้นไป ที่ต้องใช้
+`ORGANIZATION IS INDEXED`
+
+### ปัญหาที่พบจริง
+
+GnuCOBOL ที่ติดตั้งผ่านตัวจัดการแพ็กเกจของบางระบบปฏิบัติการ (เช่น `apt install gnucobol4` บน
+Ubuntu/Debian) **มักถูก build มาโดยไม่เปิดใช้งานไลบรารี ISAM** (ตัวจัดการไฟล์ดัชนีที่ `ORGANIZATION
+IS INDEXED` ต้องใช้เบื้องหลัง) แม้ระบบจะมี Berkeley DB development headers (`libdb-dev`) ติดตั้งอยู่
+แล้วก็ตาม ทดสอบด้วยคำสั่งนี้เพื่อตรวจสอบเครื่องของคุณ:
+
+```bash
+cobc -info | grep -i "indexed file handler"
+```
+
+หากได้ผลลัพธ์ `indexed file handler : disabled` แสดงว่าเครื่องคุณมีปัญหาเดียวกับที่พบระหว่างพัฒนา
+หลักสูตรนี้ และโค้ดใน Part 028 เป็นต้นไปจะ compile ไม่ผ่านพร้อม error:
+
+```
+error [-Werror]: compiler is not configured to support ORGANIZATION INDEXED
+```
+
+### วิธีแก้: Build GnuCOBOL เองพร้อมเปิดใช้ Berkeley DB
+
+ขั้นตอนต่อไปนี้ผ่านการทดสอบจริงแล้วบน Ubuntu (ผลลัพธ์: `indexed file handler : BDB version 5.3.28`)
+
+```bash
+# 1) ติดตั้งเครื่องมือ build และ Berkeley DB development headers
+sudo apt update
+sudo apt install build-essential libdb-dev libncurses-dev bison flex gettext \
+                  autoconf automake libtool pkg-config
+
+# 2) ดึงซอร์สโค้ด GnuCOBOL เวอร์ชันเดียวกับที่ระบบติดตั้งไว้ (มี patch ของ distro มาให้ครบ)
+sudo apt install dpkg-dev
+mkdir -p ~/gnucobol-build && cd ~/gnucobol-build
+apt source gnucobol4
+
+# 3) เข้าไปในโฟลเดอร์ซอร์สที่ได้ (ชื่ออาจต่างกันเล็กน้อยตามเวอร์ชัน) แล้ว configure ใหม่
+#    โดยเปิดใช้ --with-db อย่างชัดเจน
+cd gnucobol4-*/
+./configure --prefix=/usr/local --with-db
+make -j"$(nproc)"
+
+# 4) ติดตั้งลงตำแหน่งแยกต่างหาก (/usr/local) เพื่อไม่ทับของเดิมที่ apt จัดการอยู่
+sudo make install
+sudo ldconfig
+
+# 5) ตรวจสอบว่า /usr/local/bin มาก่อน /usr/bin ใน PATH แล้วทดสอบ
+export PATH=/usr/local/bin:$PATH
+cobc -info | grep -i "indexed file handler"
+```
+
+ผลลัพธ์ที่ควรได้:
+
+```
+indexed file handler        : BDB version 5.3.28
+```
+
+หากต้องการให้ `PATH` นี้มีผลถาวรทุกครั้งที่เปิด terminal ใหม่ ให้เพิ่มบรรทัด
+`export PATH=/usr/local/bin:$PATH` ต่อท้ายไฟล์ `~/.bashrc` (หรือ `~/.zshrc` ถ้าใช้ zsh) แล้วเปิด
+terminal ใหม่
+
+> **ทางเลือกอื่นแทน Berkeley DB**: หากไม่ต้องการใช้ `--with-db` สามารถใช้ `--with-vbisam` แทนได้
+> (ต้อง build/ติดตั้งไลบรารี VBISAM แยกต่างหากก่อน) ผลลัพธ์ทำงานเหมือนกันสำหรับตัวอย่างในหลักสูตรนี้
+> ทุกประการ เพราะโค้ดที่เขียนไม่ได้พึ่งพาพฤติกรรมเฉพาะของ Berkeley DB โดยตรง
+
+---
+
 ## สรุปท้ายบท
 
 ใน Part นี้ คุณได้:
