@@ -11,25 +11,25 @@
 | 003 | 21–30 | ✅ | parts/part-003-program-structure.md |
 | 004 | 31–40 | ✅ | parts/part-004-identification-environment-division.md |
 | 005 | 41–50 | ✅ | parts/part-005-working-storage-section.md |
-| 006 | 51–60 | ⬜ | |
-| 007 | 61–70 | ⬜ | |
+| 006 | 51–60 | ✅ | parts/part-006-picture-clause.md |
+| 007 | 61–70 | ✅ | parts/part-007-display-accept.md |
 | 008 | 71–80 | ✅ | parts/part-008-move-statement.md |
 | 009 | 81–90 | ✅ | parts/part-009-arithmetic.md |
 | 010 | 91–100 | ✅ | parts/part-010-if-else-condition-names.md |
 | 011 | 101–110 | ⬜ | |
-| 012 | 111–120 | ⬜ | |
+| 012 | 111–120 | ✅ | parts/part-012-perform-until.md |
 | 013 | 121–130 | ✅ | parts/part-013-perform-varying.md |
 | 014 | 131–140 | ✅ | parts/part-014-paragraphs-sections.md |
-| 015 | 141–150 | ⬜ | 🎯 Milestone: เครื่องคิดเลข/ระบบเกรด |
-| 016 | 151–160 | ⬜ | |
-| 017 | 161–170 | ⬜ | |
+| 015 | 141–150 | ✅ | parts/part-015-phase1-project.md 🎯 Milestone: เครื่องคิดเลข/ระบบเกรด |
+| 016 | 151–160 | ✅ | parts/part-016-tables-occurs.md |
+| 017 | 161–170 | ✅ | parts/part-017-subscript-search.md |
 | 018 | 171–180 | ✅ | parts/part-018-multidim-tables.md |
 | 019 | 181–190 | ✅ | parts/part-019-string-statement.md |
 | 020 | 191–200 | ✅ | parts/part-020-unstring-statement.md |
-| 021 | 201–210 | ⬜ | |
+| 021 | 201–210 | ✅ | parts/part-021-inspect-statement.md |
 | 022 | 211–220 | ⬜ | |
 | 023 | 221–230 | ✅ | parts/part-023-sequential-files.md |
-| 024 | 231–240 | ⬜ | |
+| 024 | 231–240 | ✅ | parts/part-024-file-section-fd.md |
 | 025 | 241–250 | ⬜ | |
 | 026 | 251–260 | ⬜ | |
 | 027 | 261–270 | ⬜ | |
