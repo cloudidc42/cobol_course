@@ -30,9 +30,9 @@
 | 022 | 211–220 | ✅ | parts/part-022-redefines.md |
 | 023 | 221–230 | ✅ | parts/part-023-sequential-files.md |
 | 024 | 231–240 | ✅ | parts/part-024-file-section-fd.md |
-| 025 | 241–250 | ⬜ | |
-| 026 | 251–260 | ⬜ | |
-| 027 | 261–270 | ⬜ | |
+| 025 | 241–250 | ✅ | parts/part-025-open-close-read-write.md |
+| 026 | 251–260 | ✅ | parts/part-026-master-detail-processing.md |
+| 027 | 261–270 | ✅ | parts/part-027-sort-merge.md |
 | 028 | 271–280 | ⬜ | |
 | 029 | 281–290 | ⬜ | |
 | 030 | 291–300 | ⬜ | |
