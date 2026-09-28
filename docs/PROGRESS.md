@@ -56,8 +56,8 @@
 | 048 | 471–480 | ✅ | parts/part-048-use-declaratives.md |
 | 049 | 481–490 | ✅ | parts/part-049-compiler-directives.md |
 | 050 | 491–500 | ✅ | parts/part-050-phase3-project.md 🎯 Milestone: Accounts Receivable |
-| 051 | 501–510 | ⬜ | |
-| 052 | 511–520 | ⬜ | |
+| 051 | 501–510 | ✅ | parts/part-051-mainframe-zos-intro.md |
+| 052 | 511–520 | ✅ | parts/part-052-jcl-basics.md |
 | 053 | 521–530 | ✅ | parts/part-053-jcl-advanced.md |
 | 054 | 531–540 | ✅ | parts/part-054-tso-ispf.md |
 | 055 | 541–550 | ✅ | parts/part-055-vsam-basics.md |
@@ -75,7 +75,7 @@
 | 067 | 661–670 | ✅ | parts/part-067-dfsort-advanced.md |
 | 068 | 671–680 | ✅ | parts/part-068-performance-tuning.md |
 | 069 | 681–690 | ✅ | parts/part-069-mainframe-security.md |
-| 070 | 691–700 | ⬜ | 🎯 Milestone: Mainframe Banking Sim |
+| 070 | 691–700 | ✅ | parts/part-070-phase4-project.md 🎯 Milestone: Mainframe Banking Sim |
 | 071 | 701–710 | ⬜ | |
 | 072 | 711–720 | ⬜ | |
 | 073 | 721–730 | ⬜ | |
