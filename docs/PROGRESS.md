@@ -87,10 +87,10 @@
 | 079 | 781–790 | ✅ | parts/part-079-unit-testing-cobol.md |
 | 080 | 791–800 | ✅ | parts/part-080-git-workflow-cobol.md |
 | 081 | 801–810 | ✅ | parts/part-081-refactoring-clean-code.md |
-| 082 | 811–820 | ⬜ | |
+| 082 | 811–820 | ✅ | parts/part-082-design-patterns-cobol.md |
 | 083 | 821–830 | ✅ | parts/part-083-legacy-analysis.md |
 | 084 | 831–840 | ✅ | parts/part-084-migration-strategies.md |
-| 085 | 841–850 | ⬜ | 🎯 Milestone: Legacy Modernization |
+| 085 | 841–850 | ✅ | parts/part-085-phase5-project.md 🎯 Milestone: Legacy Modernization |
 | 086 | 851–860 | ⬜ | |
 | 087 | 861–870 | ⬜ | |
 | 088 | 871–880 | ⬜ | |
