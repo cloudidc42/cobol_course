@@ -93,18 +93,18 @@
 | 085 | 841–850 | ✅ | parts/part-085-phase5-project.md 🎯 Milestone: Legacy Modernization |
 | 086 | 851–860 | ✅ | parts/part-086-enterprise-architecture.md |
 | 087 | 861–870 | ✅ | parts/part-087-microservices-cobol.md |
-| 088 | 871–880 | ⬜ | |
-| 089 | 881–890 | ⬜ | |
-| 090 | 891–900 | ⬜ | |
-| 091 | 901–910 | ⬜ | |
-| 092 | 911–920 | ⬜ | |
-| 093 | 921–930 | ⬜ | |
-| 094 | 931–940 | ⬜ | |
-| 095 | 941–950 | ⬜ | |
-| 096 | 951–960 | ⬜ | |
-| 097 | 961–970 | ⬜ | |
-| 098 | 971–980 | ⬜ | |
-| 099 | 981–990 | ⬜ | |
+| 088 | 871–880 | ✅ | parts/part-088-performance-optimization.md |
+| 089 | 881–890 | ✅ | parts/part-089-enterprise-security.md |
+| 090 | 891–900 | ✅ | parts/part-090-project-management.md |
+| 091 | 901–910 | ✅ | parts/part-091-corebanking-design.md |
+| 092 | 911–920 | ✅ | parts/part-092-corebanking-transactions.md |
+| 093 | 921–930 | ✅ | parts/part-093-corebanking-reporting.md |
+| 094 | 931–940 | ✅ | parts/part-094-insurance-case-study.md |
+| 095 | 941–950 | ✅ | parts/part-095-erp-supply-chain-case-study.md |
+| 096 | 951–960 | ✅ | parts/part-096-certification-career.md |
+| 097 | 961–970 | ✅ | parts/part-097-interview-questions.md |
+| 098 | 971–980 | ✅ | parts/part-098-best-practices.md |
+| 099 | 981–990 | ✅ | parts/part-099-future-of-cobol.md |
 | 100 | 991–1000 | ⬜ | 🎯 Capstone Project สุดท้าย |
 
 ## บันทึกการทำงาน (Work Log)
