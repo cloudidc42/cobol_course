@@ -105,7 +105,7 @@
 | 097 | 961–970 | ✅ | parts/part-097-interview-questions.md |
 | 098 | 971–980 | ✅ | parts/part-098-best-practices.md |
 | 099 | 981–990 | ✅ | parts/part-099-future-of-cobol.md |
-| 100 | 991–1000 | ⬜ | 🎯 Capstone Project สุดท้าย |
+| 100 | 991–1000 | ✅ | parts/part-100-final-capstone.md 🎯 Milestone: Enterprise Order Management System (Capstone สุดท้าย) |
 
 ## บันทึกการทำงาน (Work Log)
 
