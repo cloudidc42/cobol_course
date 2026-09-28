@@ -83,13 +83,13 @@
 | 075 | 741–750 | ✅ | parts/part-075-cobol-modern-databases.md |
 | 076 | 751–760 | ✅ | parts/part-076-docker-cobol.md |
 | 077 | 761–770 | ✅ | parts/part-077-cobol-cloud-modernization.md |
-| 078 | 771–780 | ⬜ | |
-| 079 | 781–790 | ⬜ | |
-| 080 | 791–800 | ⬜ | |
-| 081 | 801–810 | ⬜ | |
+| 078 | 771–780 | ✅ | parts/part-078-cicd-cobol.md |
+| 079 | 781–790 | ✅ | parts/part-079-unit-testing-cobol.md |
+| 080 | 791–800 | ✅ | parts/part-080-git-workflow-cobol.md |
+| 081 | 801–810 | ✅ | parts/part-081-refactoring-clean-code.md |
 | 082 | 811–820 | ⬜ | |
-| 083 | 821–830 | ⬜ | |
-| 084 | 831–840 | ⬜ | |
+| 083 | 821–830 | ✅ | parts/part-083-legacy-analysis.md |
+| 084 | 831–840 | ✅ | parts/part-084-migration-strategies.md |
 | 085 | 841–850 | ⬜ | 🎯 Milestone: Legacy Modernization |
 | 086 | 851–860 | ⬜ | |
 | 087 | 861–870 | ⬜ | |
