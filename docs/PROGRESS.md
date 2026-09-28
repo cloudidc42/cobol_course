@@ -91,7 +91,7 @@
 | 083 | 821–830 | ✅ | parts/part-083-legacy-analysis.md |
 | 084 | 831–840 | ✅ | parts/part-084-migration-strategies.md |
 | 085 | 841–850 | ✅ | parts/part-085-phase5-project.md 🎯 Milestone: Legacy Modernization |
-| 086 | 851–860 | ⬜ | |
+| 086 | 851–860 | ✅ | parts/part-086-enterprise-architecture.md |
 | 087 | 861–870 | ⬜ | |
 | 088 | 871–880 | ⬜ | |
 | 089 | 881–890 | ⬜ | |
