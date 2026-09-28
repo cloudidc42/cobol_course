@@ -92,7 +92,7 @@
 | 084 | 831–840 | ✅ | parts/part-084-migration-strategies.md |
 | 085 | 841–850 | ✅ | parts/part-085-phase5-project.md 🎯 Milestone: Legacy Modernization |
 | 086 | 851–860 | ✅ | parts/part-086-enterprise-architecture.md |
-| 087 | 861–870 | ⬜ | |
+| 087 | 861–870 | ✅ | parts/part-087-microservices-cobol.md |
 | 088 | 871–880 | ⬜ | |
 | 089 | 881–890 | ⬜ | |
 | 090 | 891–900 | ⬜ | |
