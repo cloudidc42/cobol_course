@@ -55,7 +55,7 @@
 | 047 | 461–470 | ✅ | parts/part-047-advanced-date-time.md |
 | 048 | 471–480 | ✅ | parts/part-048-use-declaratives.md |
 | 049 | 481–490 | ✅ | parts/part-049-compiler-directives.md |
-| 050 | 491–500 | ⬜ | 🎯 Milestone: Accounts Receivable |
+| 050 | 491–500 | ✅ | parts/part-050-phase3-project.md 🎯 Milestone: Accounts Receivable |
 | 051 | 501–510 | ⬜ | |
 | 052 | 511–520 | ⬜ | |
 | 053 | 521–530 | ✅ | parts/part-053-jcl-advanced.md |
@@ -71,8 +71,8 @@
 | 063 | 621–630 | ✅ | parts/part-063-cics-bms-maps.md |
 | 064 | 631–640 | ✅ | parts/part-064-cics-pseudo-conversational.md |
 | 065 | 641–650 | ✅ | parts/part-065-ims-intro.md |
-| 066 | 651–660 | ⬜ | |
-| 067 | 661–670 | ⬜ | |
+| 066 | 651–660 | ✅ | parts/part-066-batch-processing-patterns.md |
+| 067 | 661–670 | ✅ | parts/part-067-dfsort-advanced.md |
 | 068 | 671–680 | ✅ | parts/part-068-performance-tuning.md |
 | 069 | 681–690 | ✅ | parts/part-069-mainframe-security.md |
 | 070 | 691–700 | ⬜ | 🎯 Milestone: Mainframe Banking Sim |
