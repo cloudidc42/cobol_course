@@ -74,7 +74,7 @@
 | 066 | 651–660 | ⬜ | |
 | 067 | 661–670 | ⬜ | |
 | 068 | 671–680 | ✅ | parts/part-068-performance-tuning.md |
-| 069 | 681–690 | ⬜ | |
+| 069 | 681–690 | ✅ | parts/part-069-mainframe-security.md |
 | 070 | 691–700 | ⬜ | 🎯 Milestone: Mainframe Banking Sim |
 | 071 | 701–710 | ⬜ | |
 | 072 | 711–720 | ⬜ | |
