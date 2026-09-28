@@ -53,23 +53,23 @@
 | 045 | 441–450 | ✅ | parts/part-045-json-generate-parse.md |
 | 046 | 451–460 | ✅ | parts/part-046-xml-generate-parse.md |
 | 047 | 461–470 | ✅ | parts/part-047-advanced-date-time.md |
-| 048 | 471–480 | ⬜ | |
-| 049 | 481–490 | ⬜ | |
+| 048 | 471–480 | ✅ | parts/part-048-use-declaratives.md |
+| 049 | 481–490 | ✅ | parts/part-049-compiler-directives.md |
 | 050 | 491–500 | ⬜ | 🎯 Milestone: Accounts Receivable |
 | 051 | 501–510 | ⬜ | |
 | 052 | 511–520 | ⬜ | |
-| 053 | 521–530 | ⬜ | |
-| 054 | 531–540 | ⬜ | |
-| 055 | 541–550 | ⬜ | |
-| 056 | 551–560 | ⬜ | |
-| 057 | 561–570 | ⬜ | |
+| 053 | 521–530 | ✅ | parts/part-053-jcl-advanced.md |
+| 054 | 531–540 | ✅ | parts/part-054-tso-ispf.md |
+| 055 | 541–550 | ✅ | parts/part-055-vsam-basics.md |
+| 056 | 551–560 | ✅ | parts/part-056-vsam-advanced.md |
+| 057 | 561–570 | ✅ | parts/part-057-db2-sql-basics.md |
 | 058 | 571–580 | ⬜ | |
 | 059 | 581–590 | ⬜ | |
 | 060 | 591–600 | ⬜ | |
 | 061 | 601–610 | ⬜ | |
 | 062 | 611–620 | ⬜ | |
-| 063 | 621–630 | ⬜ | |
-| 064 | 631–640 | ⬜ | |
+| 063 | 621–630 | ✅ | parts/part-063-cics-bms-maps.md |
+| 064 | 631–640 | ✅ | parts/part-064-cics-pseudo-conversational.md |
 | 065 | 641–650 | ⬜ | |
 | 066 | 651–660 | ⬜ | |
 | 067 | 661–670 | ⬜ | |
