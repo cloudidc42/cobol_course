@@ -63,17 +63,17 @@
 | 055 | 541–550 | ✅ | parts/part-055-vsam-basics.md |
 | 056 | 551–560 | ✅ | parts/part-056-vsam-advanced.md |
 | 057 | 561–570 | ✅ | parts/part-057-db2-sql-basics.md |
-| 058 | 571–580 | ⬜ | |
-| 059 | 581–590 | ⬜ | |
-| 060 | 591–600 | ⬜ | |
-| 061 | 601–610 | ⬜ | |
-| 062 | 611–620 | ⬜ | |
+| 058 | 571–580 | ✅ | parts/part-058-embedded-sql.md |
+| 059 | 581–590 | ✅ | parts/part-059-db2-cursor.md |
+| 060 | 591–600 | ✅ | parts/part-060-db2-stored-procedures.md |
+| 061 | 601–610 | ✅ | parts/part-061-cics-intro.md |
+| 062 | 611–620 | ✅ | parts/part-062-cics-send-receive-map.md |
 | 063 | 621–630 | ✅ | parts/part-063-cics-bms-maps.md |
 | 064 | 631–640 | ✅ | parts/part-064-cics-pseudo-conversational.md |
-| 065 | 641–650 | ⬜ | |
+| 065 | 641–650 | ✅ | parts/part-065-ims-intro.md |
 | 066 | 651–660 | ⬜ | |
 | 067 | 661–670 | ⬜ | |
-| 068 | 671–680 | ⬜ | |
+| 068 | 671–680 | ✅ | parts/part-068-performance-tuning.md |
 | 069 | 681–690 | ⬜ | |
 | 070 | 691–700 | ⬜ | 🎯 Milestone: Mainframe Banking Sim |
 | 071 | 701–710 | ⬜ | |
