@@ -76,13 +76,13 @@
 | 068 | 671–680 | ✅ | parts/part-068-performance-tuning.md |
 | 069 | 681–690 | ✅ | parts/part-069-mainframe-security.md |
 | 070 | 691–700 | ✅ | parts/part-070-phase4-project.md 🎯 Milestone: Mainframe Banking Sim |
-| 071 | 701–710 | ⬜ | |
-| 072 | 711–720 | ⬜ | |
-| 073 | 721–730 | ⬜ | |
-| 074 | 731–740 | ⬜ | |
-| 075 | 741–750 | ⬜ | |
-| 076 | 751–760 | ⬜ | |
-| 077 | 761–770 | ⬜ | |
+| 071 | 701–710 | ✅ | parts/part-071-gnucobol-modern-ecosystem.md |
+| 072 | 711–720 | ✅ | parts/part-072-call-c-java.md |
+| 073 | 721–730 | ✅ | parts/part-073-cobol-rest-api-wrapper.md |
+| 074 | 731–740 | ✅ | parts/part-074-cobol-web-integration.md |
+| 075 | 741–750 | ✅ | parts/part-075-cobol-modern-databases.md |
+| 076 | 751–760 | ✅ | parts/part-076-docker-cobol.md |
+| 077 | 761–770 | ✅ | parts/part-077-cobol-cloud-modernization.md |
 | 078 | 771–780 | ⬜ | |
 | 079 | 781–790 | ⬜ | |
 | 080 | 791–800 | ⬜ | |
